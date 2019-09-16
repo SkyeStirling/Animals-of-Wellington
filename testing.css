@@ -1,0 +1,68 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+#frontImage { 
+	margin-top: 100px;
+
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+
+	background-image: url("./zoobuildingplaceholder.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 1200px;
+	height: 600px;
+}
+
+#an1 {
+	background-image: url("./zebraplaceholder.png");
+	height: 500px;
+}
+
+#an2 {
+	background-image: url("./tigerplaceholder.png");
+	height: 500px;
+}
+
+#an3 {
+	background-image: url("./elephantplaceholder.png");
+	height: 500px;
+}
+
+#an4 {
+	background-image: url("./charmelianplaceholder.png");
+	height: 500px;
+}
+
+#an5 {
+	background-image: url("./giraffeplaceholder.png");
+	height: 500px;
+}
+
+
+.animals {
+	background-position: bottom;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 20%;
+	transition: all ease 0.5s;
+	cursor: pointer;
+
+}
+
+.animals:hover {
+	margin-bottom: 30px;
+}
+
+.animals:active {
+	margin-bottom: 80px;
+}
