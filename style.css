@@ -1,0 +1,146 @@
+
+* {/*
+	 border: red 2px solid;  */
+
+	 margin: 0;
+	 padding: 0;
+}
+
+body{
+
+padding-top: 100px;
+ background-color: #6fdbff;
+
+ text-align: center;
+
+ width: 100%;
+
+ display: flex;
+
+ justify-content: center;
+flex-direction: column; 
+
+font-family: 'Niramit', sans-serif;
+
+}
+
+
+#topbar{
+	padding: 50px 0;
+	background-image: url("./orange.png");
+	background-position: center;
+	top:0;
+	width:100%;
+	position: absolute;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	
+
+}
+
+.container {
+	width: 400px;
+}
+
+
+/*#buttons{
+	background-image: url("./purple.png");
+}*/
+
+.home{
+	
+	/*text-align:left;*/
+
+}
+
+.next{
+	/*background-color:  purple; */
+	/*width:150px;
+/*text-align:right;*/
+}
+
+#green{
+	background-color: #a7ff70;
+	width:100%;
+	height: 100;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 50px 0;
+}
+
+/*#green h1 {
+}*/
+
+
+
+
+#frontImage { 
+	margin-top: 50px;
+
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+
+	/*padding-top: 50px;*/
+
+	background-image: url("./zoobackgroundsmall.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	width: 1200px;
+	height: 600px;
+}
+
+.disc {
+	transition: all ease 0.5s;
+	opacity: 0;
+}
+
+.home:hover {
+	margin-right: 20px;
+	transition: all ease 0.5s;
+}
+
+.next:hover {
+	margin-left: 20px;
+	transition: all ease 0.5s;
+}
+
+.animals {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 20%;
+	transition: all ease 0.5s;
+	cursor: pointer;
+
+}
+
+.animals h3 {
+
+	padding-top: 15px;
+}
+
+.animals p {
+
+	padding-top: 15px;
+}
+
+
+.animals:hover {
+	margin-bottom: 30px;
+}
+
+/*h3 {
+	letter-spacing: 3px;
+}*/
+
+.map {
+ margin: 0 auto;
+}
+
+
